@@ -1,0 +1,24 @@
+[flake8]
+ignore =
+exclude =
+    *migrations*,
+    *.txt,
+    *.ini,
+    *.y*ml,
+    *.md,
+    # python related
+    *.pyc,
+    .git,
+    oem_net,
+    local_config.py,
+    __pycache__,
+    utils,
+    forms,
+
+
+max-line-length=120
+max-complexity=30
+format=pylint
+show_source = True
+statistics = True
+count = True

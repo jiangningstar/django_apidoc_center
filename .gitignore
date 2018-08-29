@@ -1,0 +1,66 @@
+##  .gitignore
+##  - repo: git@github.intra.douban.com:Market/freyr.git
+
+*~
+*#
+.#*
+#*
+
+*.bak
+*.log
+*.pid
+*.py[cod]
+*.seed
+*.sw[po]
+*.map
+
+.*~
+.coverage*
+.DS_Store
+.grunt
+.idea/
+../.idea
+.lock-wscript
+
+coverage.xml
+pylint.out
+
+bower_components
+coverage
+coverage-reports
+lib-cov
+logs
+node_modules
+dianpu
+permdir
+permdir_test
+pids
+reports
+sms_service_client
+test-reports
+tmpdir
+venv
+
+build/Release
+/active_stubs/
+
+##  generated templates files
+##  note: usage "cp *.sample *
+
+dev.cfg
+dev.yaml
+local_config.py
+test.yaml
+
+*.sock
+*.db
+celerybeat-schedule
+*.out
+static
+
+# doc
+apidoc/
+
+#migrations
+migrations/
+
